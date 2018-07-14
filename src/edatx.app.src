@@ -1,0 +1,15 @@
+{application, edatx,
+ [{description, "Parser for datx of ipip.net"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications,[
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, ["YYChildren@gmail.com"]},
+    {licenses, ["Apache 2.0"]},
+    {links, ["https://github.com/YYChildren/edatx"]}
+ ]}.
